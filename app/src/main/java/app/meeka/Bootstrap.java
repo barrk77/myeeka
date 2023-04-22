@@ -1,8 +1,12 @@
 package app.meeka;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Bootstrap {
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(Bootstrap.class, args);
     }
 }
